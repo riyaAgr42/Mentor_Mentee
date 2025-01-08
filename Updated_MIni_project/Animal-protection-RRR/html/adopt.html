@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/adopt.css">
+    <title>Adopt Animal</title>
+</head>
+<body>
+    <header class="header" style="display: flex; align-items: center; justify-content: space-between;padding-right: 500px;">
+
+        <div class="logo"><a href="index.html" target="_self"><img src="../images/logo.png" alt="" style="height: 50px;" /></a></div>
+
+        <h1>Adopt an Animal</h1>
+    </header>
+    <main>
+        <section class="adopt-form-container">
+            <h2>Fill out the form to adopt an animal</h2>
+            <form class="adopt-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                
+                <label for="animal">Animal Preference:</label>
+                <input type="text" id="animal" placeholder="Type of animal" required>
+                
+                <label for="experience">Experience with Pets:</label>
+                <textarea id="experience" placeholder="Tell us about your experience with animals" rows="4"></textarea>
+                
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

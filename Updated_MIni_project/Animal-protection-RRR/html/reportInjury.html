@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reportInjury.css">
+    <title>Report Injury</title>
+</head>
+<body>
+    <!-- <header class="header">
+        <h1>Report an Injured Animal</h1>
+    </header> -->
+  <header class="header" style="display: flex; align-items: center; justify-content: space-between;padding-right: 400px;">
+    <div class="logo"><a href="index.html" target="_self"><img src="../images/logo.png" alt="" style="height: 50px;" /></a></div>
+       <div class="header">
+    <h1>Report an Injured Animal</h1>
+</div></header>
+    <main>
+        <section class="report-form-container">
+            <h2>Provide Details</h2>
+            <form class="report-form" enctype="multipart/form-data">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="contact">Your Contact Number:</label>
+                <input type="tel" id="contact" placeholder="Enter your contact number" required>
+
+                <label for="animal-photo">Upload Photo of the Injured Animal:</label>
+                <input type="file" id="animal-photo" accept="image/*" required>
+
+                <label for="location">Animal's Location:</label>
+                <input type="text" id="location" placeholder="Enter the location" required>
+
+                <label for="details">Additional Details:</label>
+                <textarea id="details" placeholder="Provide details about the animal's condition" rows="4" required></textarea>
+
+                <button type="submit">Submit Report</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

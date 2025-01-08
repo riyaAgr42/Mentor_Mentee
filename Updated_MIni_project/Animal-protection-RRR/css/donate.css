@@ -1,0 +1,105 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.header {
+    background-color: #99a29c;
+
+    color: white;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header p {
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.donation-container {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #0288d1;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.donation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.donation-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.donation-form select,
+.donation-form input,
+.donation-form textarea {
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.donation-form select:focus,
+.donation-form input:focus,
+.donation-form textarea:focus {
+    border-color: #00796b;
+}
+
+.donation-form button {
+    background-color: #00796b;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donation-form button:hover {
+    background-color: #004d40; /* Darker teal green */
+}
+
+textarea {
+    resize: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .donation-container {
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
